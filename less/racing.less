@@ -1,0 +1,147 @@
+/* racing.less */
+@import "colors.less";
+@import "fonts.less";
+@import "mixins.less";
+
+/* universal reset */
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+/* BODY */
+body {
+    width: 100%;
+    height: 100%;
+    color: @grayText;
+    font-family: @poppins;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+
+.racing_shoes {
+    background-color: @lightGray;
+    .padding-top-bottom(100px, 100px);   
+}
+
+/* Page title */
+.collection_text {
+    width: 100%;
+    float: left;
+    color: @white;
+    text-align: center;
+    font-family: @syncopate;
+    font-weight: bold;
+    font-size: 3em;
+    background-color: @darkText;
+    padding: 30px 0px;
+}
+
+/* Main about section */
+.about_main {
+    width: 100%;
+    float: left;
+
+    .collection_section {
+        width: 100%;
+        float: left;
+        margin-top: 40px;
+
+        .container {
+            width: 100%;
+
+            .new_text {
+                width: 100%;
+                float: left;
+                font-size: 2em;
+                color: @black;
+                padding-top: 22px;
+                padding-bottom: 22px;
+            }
+
+            .consectetur_text {
+                width: 100%;
+                float: left;
+                font-size: 1.2em;
+                color: @grayText;
+                font-weight: 400;
+                margin-left: 0px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .collectipn_section_3 {
+        width: 100%;
+        float: left;
+        padding-top: 0px;
+
+        .container {
+            width: 100%;
+
+            .racing_shoes {
+                width: 100%;
+                float: left;
+                background-color: @lightGray;
+                .padding-top-bottom(100px, 100px);
+                margin-bottom: 100px;
+
+                .shoes-img3 {
+                    width: 100%;
+                    float: left;
+                    text-align: center;
+
+                    img {
+                        width: 70%;
+                        margin-top: 4em;
+                    }
+                }
+
+                .sale_text {
+                    width: 100%;
+                    float: left;
+                    color: @white;
+                    text-align: center;
+                    font-family: @syncopate;
+                    font-weight: bold;
+                    font-size: 3em;
+                    background-color: @darkText;
+                    padding: 30px 0px;
+                }
+
+                .number_text {
+                    width: 100%;
+                    float: left;
+                    font-size: 3em;
+                    color: @darkText;
+                    line-height: 75px;
+                }
+
+                .seemore {
+                    width: 50%;
+                    height: 50px;
+                    color: @white;
+                    background-color: @darkText;
+                    font-size: 1.2em;
+                    text-align: center;
+                    border: none;
+                    margin-top: 30px;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+/* Footer */
+.copyright {
+    width: 100%;
+    float: left;
+    color: @white;
+    background-color: @darkText;
+    padding: 20px;
+    text-align: center;
+    font-family: @poppins;
+}
